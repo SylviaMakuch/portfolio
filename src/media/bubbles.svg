@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgb(241, 242, 243); display: block; z-index: 1; position: relative; shape-rendering: auto;" width="165" height="1308" preserveAspectRatio="xMidYMid" viewBox="0 0 165 1308">
+<g transform="translate(82.5,654) scale(1,1) translate(-82.5,-654)"><defs><filter id="blur-wga04ajm8p-1" x="-1" y="-1" width="3" height="3">
+  <feGaussianBlur stdDeviation="8.3"></feGaussianBlur>
+</filter><filter id="blur-wga04ajm8p-2" x="-1" y="-1" width="3" height="3">
+  <feGaussianBlur stdDeviation="4.15"></feGaussianBlur>
+</filter><filter id="blur-wga04ajm8p-3" x="-1" y="-1" width="3" height="3">
+  <feGaussianBlur stdDeviation="2.766666666666667"></feGaussianBlur>
+</filter></defs><circle cx="128.56219290253676" cy="0" transform="translate(0 244.01128481294376)" r="8.081525643787192" fill="#ffffff" opacity="0.63">
+  <animateTransform attributeName="transform" type="translate" begin="-12.869561178198833s" dur="17.241379310344826s" repeatCount="indefinite" keyTimes="0;1" values="0 1316.0815256437872;0 -8.081525643787192"></animateTransform>
+</circle><circle cx="79.24442198784372" cy="0" transform="translate(0 26.63457068861204)" r="14.672268418764693" fill="#ffffff" opacity="0.7200000000000001">
+  <animateTransform attributeName="transform" type="translate" begin="-4.593871211164722s" dur="11.494252873563218s" repeatCount="indefinite" keyTimes="0;1" values="0 1322.6722684187646;0 -14.672268418764693"></animateTransform>
+</circle><circle cx="88.81211702319568" cy="0" transform="translate(0 527.8090775017785)" r="4.80666089624579" fill="#93dbe9" opacity="0.36000000000000004">
+  <animateTransform attributeName="transform" type="translate" begin="-25.941235404200338s" dur="34.48275862068965s" repeatCount="indefinite" keyTimes="0;1" values="0 1312.8066608962458;0 -4.80666089624579"></animateTransform>
+</circle><circle cx="104.25644580306442" cy="0" transform="translate(0 486.989778540613)" r="5.530145117813532" fill="#d9dbee" opacity="0.36000000000000004">
+  <animateTransform attributeName="transform" type="translate" begin="-2.4522515827371083s" dur="34.48275862068965s" repeatCount="indefinite" keyTimes="0;1" values="0 1313.5301451178136;0 -5.530145117813532"></animateTransform>
+</circle><circle cx="159.80156317814735" cy="0" transform="translate(0 348.22178291476854)" r="8.643675962113782" fill="#ffffff" opacity="0.63">
+  <animateTransform attributeName="transform" type="translate" begin="-2.1941672405995782s" dur="17.241379310344826s" repeatCount="indefinite" keyTimes="0;1" values="0 1316.6436759621138;0 -8.643675962113782"></animateTransform>
+</circle><circle cx="15.605568935650881" cy="0" transform="translate(0 463.2373442972967)" r="12.295470593077178" fill="#ffffff" opacity="0.7200000000000001">
+  <animateTransform attributeName="transform" type="translate" begin="-8.701314053664069s" dur="11.494252873563218s" repeatCount="indefinite" keyTimes="0;1" values="0 1320.2954705930772;0 -12.295470593077178"></animateTransform>
+</circle><circle cx="17.15269683328298" cy="0" transform="translate(0 377.74426636103465)" r="12.999998544156762" fill="#d9dbee" opacity="0.7200000000000001">
+  <animateTransform attributeName="transform" type="translate" begin="-5.825052879648782s" dur="11.494252873563218s" repeatCount="indefinite" keyTimes="0;1" values="0 1320.9999985441568;0 -12.999998544156762"></animateTransform>
+</circle><circle cx="153.49044733487077" cy="0" transform="translate(0 825.5558820769937)" r="4.34641643364601" fill="#ffffff" opacity="0.36000000000000004">
+  <animateTransform attributeName="transform" type="translate" begin="-19.999169342395223s" dur="34.48275862068965s" repeatCount="indefinite" keyTimes="0;1" values="0 1312.346416433646;0 -4.34641643364601"></animateTransform>
+</circle><circle cx="39.503551180985696" cy="0" transform="translate(0 251.82272079318682)" r="12.463693024809855" fill="#d9dbee" opacity="0.7200000000000001">
+  <animateTransform attributeName="transform" type="translate" begin="-8.191679112713913s" dur="11.494252873563218s" repeatCount="indefinite" keyTimes="0;1" values="0 1320.4636930248098;0 -12.463693024809855"></animateTransform>
+</circle><circle cx="47.39022057148944" cy="0" transform="translate(0 466.28518882000293)" r="7.271848616539614" fill="#d9dbee" opacity="0.36000000000000004">
+  <animateTransform attributeName="transform" type="translate" begin="-26.97839972493978s" dur="34.48275862068965s" repeatCount="indefinite" keyTimes="0;1" values="0 1315.2718486165395;0 -7.271848616539614"></animateTransform>
+</circle><circle cx="141.56506926037432" cy="0" transform="translate(0 282.9977486982742)" r="4.78354064722529" fill="#d9dbee" opacity="0.36000000000000004">
+  <animateTransform attributeName="transform" type="translate" begin="-9.03922649223272s" dur="34.48275862068965s" repeatCount="indefinite" keyTimes="0;1" values="0 1312.7835406472252;0 -4.78354064722529"></animateTransform>
+</circle></g>
+</svg>
