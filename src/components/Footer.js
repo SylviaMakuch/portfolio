@@ -61,7 +61,7 @@ const Contact = styled.a`
 
 export default function Footer() {
     return(
-        <PageContainer>
+        <PageContainer id="contact">
              <SocialTab />
              <Link to="/contactform"> <Contact>Contact</Contact></Link>
         </PageContainer>

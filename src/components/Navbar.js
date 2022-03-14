@@ -48,6 +48,7 @@ export default function Navbar() {
             <Text onClick={() => setScrolledPage("about")}> ABOUT</Text>
             <Text onClick={() => setScrolledPage("skills")}> SKILLS</Text>
             <Text onClick={() => setScrolledPage("projects")}> PROJECTS</Text>
+            <Text onClick={() => setScrolledPage("contact")}> CONTACT</Text>
         </NavbarContainer>
       
     )
