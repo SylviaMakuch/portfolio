@@ -4,11 +4,18 @@ import soundboard from "./../../media/soundboard.png";
 import tinpurr from "./../../media/tinpurr.gif";
 import artpage from "./../../media/artpage.svg";
 import threejsprofolio from "./../../media/threejsprofolio.gif";
+import thecookbook from "./../../media/thecookbook.png";
 
 export const cardData = [
   {
+    title: "The Cook- Book",
+    text: "An app designed with theMealdb API for the user to search for recipes based on ingredients.",
+    image: thecookbook,
+    url: "https://sylviamakuch.github.io/the-cookbook/",
+  },
+  {
     title: "Own Me NFT",
-    text: "A landing page for a NFT company",
+    text: "A landing page for a NFT company to sell and own NFTs.",
     image: ownme,
     url: "https://ownme.io/",
   },

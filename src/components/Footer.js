@@ -54,8 +54,9 @@ const PageContainer = styled.div`
 `;
 
 const Contact = styled.a`
-  color: magenta;
+  color: #edda2e;
   font-size: 30px;
+  margin: 20px;
 `;
 
 
@@ -63,7 +64,7 @@ export default function Footer() {
     return(
         <PageContainer id="contact">
              <SocialTab />
-             <Link to="/contactform"> <Contact>Contact</Contact></Link>
+             <Link to="/contactform"> <Contact>Click here to Contact Me</Contact></Link>
         </PageContainer>
     )
 }

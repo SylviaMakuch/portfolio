@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "homepage": "http://sylviamakuch.github.io/portfolio",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@material-ui/core": "^4.12.3",
