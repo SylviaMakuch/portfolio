@@ -17,6 +17,9 @@ const PageContainer = styled.div`
   @media (max-width: 1460px) {
     justify-content: flex-start;
   }
+  @media (max-width: 620px) {
+    height: 70vh;
+  }
 `;
 
 const Picture = styled.img`
@@ -48,9 +51,10 @@ const Picture = styled.img`
   }
   @media (max-width: 620px) {
     height: 190px;
-    width: 155px;
-    margin: 10px;
+    width: 140px;
+    margin: 0px;
   }
+
 `;
 
 const Text = styled.div`
@@ -82,7 +86,7 @@ const Text = styled.div`
     width: 280px;
   }
   @media (max-width: 530px) {
-    font-size: 23px;
+    font-size: 20px;
     width: 170px;
   }
 `;
@@ -101,6 +105,9 @@ const Greeting = styled.div`
   position: relative;
   @media (max-width: 740px) {
     font-size: 35px;
+  }
+  @media (max-width: 620px) {
+    font-size: 25px;
   }
 `;
 
@@ -147,6 +154,9 @@ const LeftInnerDiv = styled.div`
   @media (max-width: 1140px) {
     margin: 20px;
   }
+  @media (max-width: 620px) {
+    margin-right: 0px;
+  }
 `;
 
 const RightInnerDiv = styled.div`
@@ -164,6 +174,9 @@ const RightInnerDiv = styled.div`
   }
   @media (max-width: 738px) {
     margin: 0px 0px 0px 20px;
+  }
+  @media (max-width: 620px) {
+    width: 160px;
   }
 `;
 

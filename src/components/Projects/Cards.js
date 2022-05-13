@@ -19,6 +19,10 @@ const Card = styled.div`
   }
   @media (max-width: 580px) {
     width: 80%;
+    box-shadow: 0 0 0px #87e0ee38, 0 0 0px #87e0ee38, 0 0 0px #87e0ee38,
+      0 0 20px #e289ff8f;
+    background-image: linear-gradient(to left, #ff000000, #ffe2e23d, #ff000000);
+  
   }
   &:hover {
     transform: translateX(3px);
@@ -33,8 +37,6 @@ const ImageFile = styled.img`
   height: 260px;
   width: 500px;
   border-radius: 25px 25px 0px 0px;
-
-  
   @media (max-width: 1220px) {
     width: 100%;
   }

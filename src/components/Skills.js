@@ -67,19 +67,20 @@ const InnerDiv = styled.div`
   flex-direction: row;
   justify-content: center;
   align-content: center;
+  @media (max-width: 780px) {
+    max-width: 70%;
+  }
 `;
 
 const Icon = styled.img`
-  height: 100px;
   width: 100px;
-  margin: 50px;
+  margin: 30px;
   @media (max-width: 1700px) {
     width: 80px;
-    margin: 30px;
   }
   @media (max-width: 1200px) {
     width: 60px;
-    margin: 30px;
+    margin: 20px;
   }
   @media (max-width: 900px) {
     width: 50px;
@@ -87,7 +88,7 @@ const Icon = styled.img`
   }
   @media (max-width: 780px) {
     margin: 10px;
-    width: 40px;
+    width: 30px;
   }
 `;
 

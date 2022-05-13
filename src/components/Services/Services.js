@@ -23,6 +23,9 @@ const Title = styled.h2`
   font-size: 65px;
   letter-spacing: 0.8px; */
   margin: 1000px 100px 1000px 100px;
+  @media( max-width: 800px){
+    font-size: 45px;
+  }
 `;
 
 const InnerBottomDiv = styled.div`

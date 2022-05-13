@@ -39,6 +39,9 @@ const Title = styled.h2`
   text-shadow: 2px 2px black;
   font-size: 65px;
   letter-spacing: 0.8px; */
+  @media( max-width: 800px){
+    font-size: 45px;
+  }
 `;
 
 const Picture = styled.img`
