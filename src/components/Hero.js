@@ -181,9 +181,8 @@ export default function Hero() {
           <Text>
             I‘m <PinkText> Sylvia Makuch,</PinkText> a Front End Developer based
             in Canada 🍁.
-            <a href="https://drive.google.com/file/d/1ADXRObZNdobSKkRIazMPufnTp1JQsed0/view?usp=sharing">
-              {" "}
-              <ResumeButton> Resume </ResumeButton>{" "}
+            <a href="https://www.canva.com/design/DAEvHCWV6I4/OTyjJqiQrhRHGMNlRzKC9w/view?utm_content=DAEvHCWV6I4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+              <ResumeButton> Resume </ResumeButton>
             </a>
           </Text>
         </div>
