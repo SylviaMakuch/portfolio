@@ -25,7 +25,7 @@ const Title = styled.h2`
   font-weight: 800;
   color: white;
   text-align: center;
-  font-size: 45px;
+  font-size: 35px;
   letter-spacing: 0.8px; */
 `;
 
@@ -34,22 +34,17 @@ const Forum = styled.form`
   background: #bcb2be26;
   box-shadow: 20px 20px 60px #2c1232b5, -20px -20px 60px #a187a1;
   height: 550px;
-  width: 400px;
-  padding: 30px 40px;
+  width: 290px;
+  padding: 30px;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   color: white;
   font-family: monospace;
   justify-content: space-between;
-  font-size: 25px;
-  margin: 100px 0px 0px 0px ;
-@media(max-width: 600px){
-  width: 290px;
-}
-@media(max-height: 780px){
-  width:   padding: 30px;
-}
+  font-size: 20px;
+  margin: 100px 0px 0px 0px;
+
 `;
 
 const Button = styled.button`
@@ -66,7 +61,7 @@ const Button = styled.button`
   cursor: pointer;
   margin: 7px;
   transition: 0.2s ease-in-out;
-  box-shadow: 6px 6px 14px #c096c9, 6px -6px 10px rgb(121 71 71 / 50%),
+  box-shadow: 6px 6px 14px #c096c9,0px 0px 0px rgb(121 71 71 / 50%),
     6px 6px 8px rgb(255 255 255 / 8%), 6px 6px 10px rgb(0 0 0 / 15%);
 
   &:hover {

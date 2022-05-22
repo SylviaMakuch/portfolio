@@ -21,7 +21,7 @@ const SocialsGrid = styled.div`
 `;
 
 const SocialsIcons = styled.img`
-  height: 60px;
+  height: 28px;
   margin: 20px;
   :hover {
     transform: rotateY(360deg);
