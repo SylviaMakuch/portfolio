@@ -10,8 +10,8 @@ export const servicesData = [
     },
     {
         image: webdev,
-        title: "Continous Learning",
-        text: " I believe that custom code will make your company stand out. Therefore would like to bring your ideas out and into the browser. ",
+        title: "Web Development",
+        text: " I believe that custom code will make your company stand out. ",
     },
     {
         image: eng,

@@ -47,6 +47,9 @@ const Forum = styled.form`
 @media(max-width: 600px){
   width: 290px;
 }
+@media(max-height: 780px){
+  width:   padding: 30px;
+}
 `;
 
 const Button = styled.button`
