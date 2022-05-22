@@ -63,7 +63,7 @@ const Message = styled.p`
   padding: 5%;
   @media (max-width: 946px) {
     height: 145px;
-    font-size: 17px;
+    font-size: 12px;
   }
   @media (max-width: 720px) {
     font-size: 11px;

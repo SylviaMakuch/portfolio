@@ -47,8 +47,8 @@ const Title = styled.h2`
 
 const Picture = styled.img`
   width: 550px;
-@media(max-width: 780px){
-  width: 80%;
+@media(max-width: 1180px){
+  width: 40%;
 }
 `;
 

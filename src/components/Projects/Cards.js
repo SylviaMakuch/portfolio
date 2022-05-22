@@ -6,7 +6,6 @@ const Card = styled.div`
   background-image: linear-gradient(to left, #000000e0, #ff000000, #000000e0);  
   width: 500px;
   border-radius: 30px;
-  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,6 +53,8 @@ const Message = styled.p`
   @media (max-width: 780px) {
   font-size: 15px;
   text-align: center;
+  margin: 0px;
+  min-height: 56px;
   }
   @media (max-width: 580px) {
   font-size: 16px;
@@ -68,10 +69,14 @@ const Title = styled.h2`
   text-align: center;
   font-size: 25px;
   letter-spacing: 0.8px;
+  margin: 6px;
 `;
 
 const Button = styled.button`
-  background-color: purple;
+ background: linear-gradient(rgba(255, 255, 255, 0.473), rgba(150, 150, 150, 0.25));
+ z-index: 1;
+ backdrop-filter: blur(10px);
+ -webkit-backdrop-filter: blur(10px);
   padding: 1em 2em;
   display: inline-block;
   border: none;

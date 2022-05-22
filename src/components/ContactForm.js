@@ -6,7 +6,6 @@ import emailjs from "@emailjs/browser";
 import SocialTab from "./Socials";
 
 const PageContainer = styled.div`
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,10 +25,8 @@ const Title = styled.h2`
   font-weight: 800;
   color: white;
   text-align: center;
-  text-shadow: 2px 2px black;
-  font-size: 65px;
+  font-size: 45px;
   letter-spacing: 0.8px; */
-  margin: 1000px 100px 1000px 100px;
 `;
 
 const Forum = styled.form`
@@ -46,6 +43,10 @@ const Forum = styled.form`
   font-family: monospace;
   justify-content: space-between;
   font-size: 25px;
+  margin: 100px 0px 0px 0px ;
+@media(max-width: 600px){
+  width: 290px;
+}
 `;
 
 const Button = styled.button`
@@ -103,8 +104,8 @@ export default function ContactForm() {
 
   return (
     <PageContainer>
-      <Title>Contact Me</Title>
       <Forum ref={form} onSubmit={sendEmail}>
+      <Title>Contact Me</Title>
         <label>Name</label>
         <input type="text" name="name" />
 

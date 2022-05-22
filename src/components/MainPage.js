@@ -6,6 +6,7 @@ import Projects from "./Projects/Projects.js";
 import Footer from "./Footer.js";
 import Hero from "./Hero.js";
 import Principles from "./Principles/Principles"
+import ContactForm from "./ContactForm.js";
 
 const MainContainer = styled.div``;
 
@@ -17,7 +18,8 @@ export default function MainPage() {
       <Skills />
       <Principles />
       <Projects />
-      <Footer />
+      <ContactForm />
+      {/* <Footer /> */}
     </MainContainer>
   );
 }

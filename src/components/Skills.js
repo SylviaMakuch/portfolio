@@ -69,6 +69,9 @@ const InnerDiv = styled.div`
   align-content: center;
   margin: 25px;
   @media (max-width: 780px) {
+    max-width: 63%;
+  }
+  @media (max-width: 680px) {
     max-width: 70%;
   }
 `;
@@ -87,7 +90,7 @@ const Icon = styled.img`
     width: 50px;
     margin: 20px;
   }
-  @media (max-width: 780px) {
+  @media (max-width: 680px) {
     margin: 10px;
     width: 30px;
   }

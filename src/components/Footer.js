@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import SocialTab from "./Socials";
 import { Link } from "react-router-dom";
+import ContactForm from "./ContactForm";
 
 const PageContainer = styled.div`
   width: 100%;
