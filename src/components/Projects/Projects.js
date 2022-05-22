@@ -31,7 +31,7 @@ const InnerBottomDiv = styled.div`
 `;
 
 const Title = styled.h2`
-  font-family: Lato;
+  font-family: 'Fira Sans', sans-serif;
   font-style: normal;
   font-weight: 800;
   color: white;
@@ -48,7 +48,7 @@ const Title = styled.h2`
 const Picture = styled.img`
   width: 550px;
 @media(max-width: 1180px){
-  width: 40%;
+  width: 50%;
 }
 `;
 
@@ -67,16 +67,16 @@ export default function Projects() {
   });
   return (
     <PageContainer id="projects">
-     <Title ata-aos="zoom-out"> My Latest Projects </Title>
-          <div data-aos="fade-up">
-      <InnerTopDiv>
-        <Picture src={workhard} />
-      </InnerTopDiv>
-      <InnerBottomDiv>
-        {cardData.map(({ title, text, image, url }, index) => {
-          return <Cards url={url} image={image} text={text} title={title} key={index} />;
-        })}
-      </InnerBottomDiv>
+      <Title ata-aos="zoom-out"> My Latest Projects </Title>
+      <div data-aos="fade-up">
+        <InnerTopDiv>
+          <Picture src={workhard} />
+        </InnerTopDiv>
+        <InnerBottomDiv>
+          {cardData.map(({ title, text, image, url }, index) => {
+            return <Cards url={url} image={image} text={text} title={title} key={index} />;
+          })}
+        </InnerBottomDiv>
       </div>
     </PageContainer>
   );

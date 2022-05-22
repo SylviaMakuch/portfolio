@@ -72,22 +72,19 @@ const Message = styled.p`
 `;
 
 const Title = styled.h2`
-  font-family: Lato;
+  font-family: Lato, san-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 100;
   color: #ff8383;
   text-align: center;
   font-size: 28px;
   letter-spacing: 0.8px;
   text-transform: uppercase;
   @media (max-width: 946px) {
-    font-size: 23px;
+    font-size: 15px;
   }
   @media (max-width: 790px) {
     margin: 2px;
-  }
-  @media (max-width: 620px) {
-    font-size: 18px;
   }
 `;
 

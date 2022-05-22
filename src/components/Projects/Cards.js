@@ -33,7 +33,7 @@ const Card = styled.div`
 `;
 
 const ImageFile = styled.img`
-  height: 260px;
+  height: 198px;
   width: 500px;
   border-radius: 25px 25px 0px 0px;
   @media (max-width: 1220px) {
@@ -45,16 +45,16 @@ const ImageFile = styled.img`
 `;
 
 const Message = styled.p`
-  font-family: Lato;
+  font-family: inherit;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 100;
   color: white;
   font-size: 20px;
   @media (max-width: 780px) {
   font-size: 15px;
   text-align: center;
   margin: 0px;
-  min-height: 56px;
+  min-height: 53px;
   }
   @media (max-width: 580px) {
   font-size: 16px;
@@ -62,7 +62,7 @@ const Message = styled.p`
 `;
 
 const Title = styled.h2`
-  font-family: Lato;
+  font-family: Poppins;
   font-style: normal;
   font-weight: 800;
   color: #ff8383;
@@ -82,10 +82,10 @@ const Button = styled.button`
   border: none;
   border-radius: 10px;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 900;
   color: white;
   transition: all 0.5s ease-in-out;
-
+  font-family: 'Fira Sans', sans-serif;
   &:hover {
     animation: gradient 2s infinite;
     transform: scale(1.05);

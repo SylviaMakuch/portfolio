@@ -14,7 +14,7 @@ const PageContainer = styled.div`
 `;
 
 const Title = styled.h2`
-  font-family: Lato;
+  font-family: 'Fira Sans', sans-serif;
   font-style: normal;
   font-weight: 800;
   color: white;

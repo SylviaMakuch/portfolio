@@ -11,12 +11,12 @@ export const servicesData = [
     {
         image: webdev,
         title: "Web Development",
-        text: " I believe that custom code will make your company stand out. ",
+        text: " I believe that custom code will make your company stand out. I love inventing and building, from the prototype to experiencing the real model clients interact with.",
     },
     {
         image: eng,
-        title: "Engineering",
-        text: "I love inventing and building, from the prototype to experiencing the real model clients interact with. ",
+        title: "Communication",
+        text: " I believe that good communication and transperancy is the ground work of a great team. "
     },
 
 ]
