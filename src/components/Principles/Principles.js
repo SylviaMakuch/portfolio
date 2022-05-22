@@ -22,7 +22,7 @@ const Title = styled.h2`
   text-shadow: 2px 2px black;
   font-size: 65px;
   letter-spacing: 0.8px; */
-  margin: 1000px 100px 1000px 100px;
+  margin: 500px 100px 500px 100px;
   @media( max-width: 800px){
     font-size: 45px;
   }
@@ -44,7 +44,7 @@ const InnerTopDiv = styled.div`
 `;
 
 
-export default function Services() {
+export default function Principles() {
   AOS.init({
     duration: 1200,
   });
@@ -52,7 +52,7 @@ export default function Services() {
 
       <PageContainer>
         <InnerTopDiv>
-        <Title>My Skills</Title>
+        <Title>My Principles</Title>
         </InnerTopDiv>
         <div data-aos="zoom-in">
         <InnerBottomDiv>

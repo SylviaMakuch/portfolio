@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import wavey from "./../media/wavey.gif";
 import profilepic from "./../media/profilepic.jpg";
+import AOS from "aos";
 import "aos/dist/aos.css";
 
 const PageContainer = styled.div`
@@ -181,6 +182,9 @@ const RightInnerDiv = styled.div`
 `;
 
 export default function Hero() {
+  AOS.init({
+    duration: 800,
+  });
   return (
     <PageContainer id="about">
       <LeftInnerDiv>

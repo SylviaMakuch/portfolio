@@ -39,6 +39,7 @@ const Title = styled.h2`
   text-shadow: 2px 2px black;
   font-size: 65px;
   letter-spacing: 0.8px; */
+  margin: 500px 100px 500px 100px;
   @media( max-width: 800px){
     font-size: 45px;
   }
@@ -57,7 +58,7 @@ const InnerTopDiv = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin: 60px 0px 80px 0px;
+  margin: 40px 0px 80px 0px;
 `;
 
 export default function Projects() {
@@ -66,10 +67,10 @@ export default function Projects() {
   });
   return (
     <PageContainer id="projects">
+     <Title ata-aos="zoom-out"> My Latest Projects </Title>
           <div data-aos="fade-up">
       <InnerTopDiv>
         <Picture src={workhard} />
-        <Title> My Latest Projects </Title>
       </InnerTopDiv>
       <InnerBottomDiv>
         {cardData.map(({ title, text, image, url }, index) => {

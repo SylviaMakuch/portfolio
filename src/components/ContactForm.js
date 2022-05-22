@@ -3,13 +3,14 @@ import styled from "styled-components";
 import animatedwave from "./../media/animatedwave.svg";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import SocialTab from "./Socials";
 
 const PageContainer = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   align-items: center;
   background-image: url(${animatedwave});
   background-size: 100%;
@@ -37,7 +38,7 @@ const Forum = styled.form`
   box-shadow: 20px 20px 60px #2c1232b5, -20px -20px 60px #a187a1;
   height: 550px;
   width: 400px;
-  padding: 40px 80px;
+  padding: 30px 40px;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
@@ -45,9 +46,6 @@ const Forum = styled.form`
   font-family: monospace;
   justify-content: space-between;
   font-size: 25px;
-  @media(max-width: 600px){
-    width: 50%;
-  }
 `;
 
 const Button = styled.button`
@@ -62,6 +60,7 @@ const Button = styled.button`
   text-align: center;
   outline: none;
   cursor: pointer;
+  margin: 7px;
   transition: 0.2s ease-in-out;
   box-shadow: 6px 6px 14px #c096c9, 6px -6px 10px rgb(121 71 71 / 50%),
     6px 6px 8px rgb(255 255 255 / 8%), 6px 6px 10px rgb(0 0 0 / 15%);
@@ -122,6 +121,7 @@ export default function ContactForm() {
           Submit
         </Button>
       </Forum>
+      <SocialTab />
     </PageContainer>
   );
 }

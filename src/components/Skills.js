@@ -67,6 +67,7 @@ const InnerDiv = styled.div`
   flex-direction: row;
   justify-content: center;
   align-content: center;
+  margin: 25px;
   @media (max-width: 780px) {
     max-width: 70%;
   }

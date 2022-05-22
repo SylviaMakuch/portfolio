@@ -3,9 +3,8 @@ import { CardContent } from "@material-ui/core/";
 import styled from "styled-components";
 
 const Card = styled.div`
-  /* height: 500px; */
   width: 330px;
-  background-color: purple;
+  background-color: #ac63ac;
   border-radius: 30px;
   margin: 20px;
   display: flex;
@@ -24,11 +23,9 @@ const Card = styled.div`
     padding: 5px;
   }
   @media (max-width: 1090px) {
-    /* height: 525px; */
     width: 270px;
   }
   @media (max-width: 946px) {
-    /* height: 570px; */
     width: 225px;
   }
   @media (max-width: 790px) {
@@ -39,7 +36,6 @@ const Card = styled.div`
   }
   @media (max-width: 560px) {
     width: 65%;
-    /* height: 100%; */
   }
 `;
 
@@ -49,16 +45,16 @@ const Image = styled.img`
     width: 162px;
   }
   @media (max-width: 660px) {
-    width: 65%;
+    width: 50%;
   }
 `;
 
 const Message = styled.p`
   font-family: Lato;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 100;
   color: white;
-  font-size: 20px;
+  font-size: 19px;
   height: 140px;
   background-color: rgb(189 16 224 / 20%);
   text-align: center;
@@ -66,11 +62,12 @@ const Message = styled.p`
   align-items: center;
   padding: 5%;
   @media (max-width: 946px) {
-    height: 205px;
+    height: 145px;
     font-size: 17px;
   }
   @media (max-width: 720px) {
-    font-size: 17px;
+    font-size: 11px;
+    height: 100px;
   }
 `;
 
@@ -85,6 +82,9 @@ const Title = styled.h2`
   text-transform: uppercase;
   @media (max-width: 946px) {
     font-size: 23px;
+  }
+  @media (max-width: 790px) {
+    margin: 2px;
   }
   @media (max-width: 620px) {
     font-size: 18px;

@@ -6,11 +6,11 @@ export const servicesData = [
     {
         image: design,
         title: "Desgin",
-        text: " As an artist, I love making exciting websites, ones that people will remember. I value thoughtful interaction between the client and company. ",
+        text: " As also an artist, I love making exciting websites, ones that people will remember by projecting a thoughtful interaction between the client and company. ",
     },
     {
         image: webdev,
-        title: "Web Development",
+        title: "Continous Learning",
         text: " I believe that custom code will make your company stand out. Therefore would like to bring your ideas out and into the browser. ",
     },
     {
