@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.47d447c2.css",
-    "main.js": "/portfolio/static/js/main.b15deebe.js",
+    "main.js": "/portfolio/static/js/main.909b9d1e.js",
     "static/media/threejsprofolio.gif": "/portfolio/static/media/threejsprofolio.aab96cd2a193c063edde.gif",
     "static/media/artpage.svg": "/portfolio/static/media/artpage.530b48e33172327473b6c8d48229e88f.svg",
     "static/media/wavey.gif": "/portfolio/static/media/wavey.f5ee05566f5aee0f8ea0.gif",
@@ -20,18 +20,18 @@
     "static/media/react.svg": "/portfolio/static/media/react.19465659ecf7a1122618d3dcf23bf337.svg",
     "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.09b773cc0f17dc078cc9864e5e8006ba.svg",
     "static/media/js.svg": "/portfolio/static/media/js.c4c89593ed1e0e3dc681b04e7ba75899.svg",
-    "static/media/github.svg": "/portfolio/static/media/github.9276b02ed1374b5ae850f08d23ce27b7.svg",
     "index.html": "/portfolio/index.html",
+    "static/media/github.svg": "/portfolio/static/media/github.9276b02ed1374b5ae850f08d23ce27b7.svg",
     "static/media/figma.svg": "/portfolio/static/media/figma.41c86114e6681aa08b00ad995dd267f8.svg",
     "static/media/html.svg": "/portfolio/static/media/html.185baee7db74b83bf22eec6a6def7644.svg",
     "static/media/css.svg": "/portfolio/static/media/css.212d777ae2db63edb235490d487dc292.svg",
     "static/media/mongodb.svg": "/portfolio/static/media/mongodb.3beac5ba18197ccbdea6e2f53e18edcf.svg",
     "static/media/linkden.svg": "/portfolio/static/media/linkden.7eca8f1205b1108db7d28e85dae93bca.svg",
     "main.47d447c2.css.map": "/portfolio/static/css/main.47d447c2.css.map",
-    "main.b15deebe.js.map": "/portfolio/static/js/main.b15deebe.js.map"
+    "main.909b9d1e.js.map": "/portfolio/static/js/main.909b9d1e.js.map"
   },
   "entrypoints": [
     "static/css/main.47d447c2.css",
-    "static/js/main.b15deebe.js"
+    "static/js/main.909b9d1e.js"
   ]
 }
