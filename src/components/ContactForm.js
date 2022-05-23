@@ -101,7 +101,7 @@ export default function ContactForm() {
   };
 
   return (
-    <PageContainer>
+    <PageContainer id="contact">
       <Forum ref={form} onSubmit={sendEmail}>
       <Title>Contact Me</Title>
         <label>Name</label>
