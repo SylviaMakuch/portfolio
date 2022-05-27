@@ -4,6 +4,7 @@ import wavey from "./../media/wavey.gif";
 import profilepic from "./../media/profilepic.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const PageContainer = styled.div`
   height: 100vh;
@@ -198,9 +199,9 @@ export default function Hero() {
           <Text>
             I‘m <PinkText> Sylvia Makuch,</PinkText> a Front End Developer based
             in Canada 🍁.
-            <a href="https://www.canva.com/design/DAEvHCWV6I4/OTyjJqiQrhRHGMNlRzKC9w/view?utm_content=DAEvHCWV6I4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+            <Link to="/resume">
               <ResumeButton> Resume </ResumeButton>
-            </a>
+            </Link>
           </Text>
         </div>
       </RightInnerDiv>
