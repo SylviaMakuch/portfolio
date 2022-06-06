@@ -27,6 +27,9 @@ const SocialsIcons = styled.img`
     transform: rotateY(360deg);
     transition: 0.5s;
   }
+  @media(max-width: 900px){
+    height: 28px;
+  }
 `;
 
 const SocialTab = () => {
