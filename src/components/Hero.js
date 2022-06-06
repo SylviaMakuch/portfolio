@@ -5,6 +5,7 @@ import profilepic from "./../media/profilepic.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
+import SocialTab from "./Socials.js";
 
 const PageContainer = styled.div`
   height: 100vh;
@@ -192,6 +193,7 @@ export default function Hero() {
         <div data-aos="flip-left">
           <Picture src={profilepic} />
         </div>
+        <SocialTab />
       </LeftInnerDiv>
       <RightInnerDiv>
         <div data-aos="fade-left">

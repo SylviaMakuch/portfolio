@@ -7,7 +7,7 @@ const socialIcons = [
   {
     key: "linkedin",
     icon: linkedin,
-    url: "https://www.linkedin.com/in/sylvia-makuch-6baa4a66/",
+    url: "https://www.linkedin.com/in/sylvia-makuch-21007923a/",
   },
   {
     key: "github",
@@ -21,17 +21,13 @@ const SocialsGrid = styled.div`
 `;
 
 const SocialsIcons = styled.img`
-  height: 28px;
+  height: 40px;
   margin: 20px;
   :hover {
     transform: rotateY(360deg);
     transition: 0.5s;
   }
 `;
-
-// const Contact = styled.a`
-//   color: white;
-// `;
 
 const SocialTab = () => {
   return (
