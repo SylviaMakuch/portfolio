@@ -4,7 +4,7 @@
   "homepage": "http://sylviamakuch.github.io/portfolio",
   "private": false,
   "dependencies": {
-    "@emailjs/browser": "^3.4.0",
+    "@emailjs/browser": "^3.5.0",
     "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
