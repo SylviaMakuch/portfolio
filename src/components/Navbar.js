@@ -22,7 +22,7 @@ const Text = styled.div`
     }
     @media (max-width: 500px) {
         justify-content: space-between;
-        font-size: 16px;
+        font-size: 14px;
     }
     :hover{
         color: pink;
