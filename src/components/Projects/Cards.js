@@ -1,16 +1,19 @@
 import React from "react";
 import styled from "styled-components";
-import { cardData } from "./Config";
+
 
 const Card = styled.div`
-  background-image: linear-gradient(to left, #000000e0, #ff000000, #000000e0);  
+  background-image: linear-gradient(to left, #000000e0, #4c0864, #000000e0);  
   width: 500px;
-  border-radius: 30px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   margin: 45px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
 
   @media (max-width: 1220px) {
     width: 40%;
@@ -19,7 +22,7 @@ const Card = styled.div`
   @media (max-width: 780px) {
     width: 90%;
     box-shadow: 0 0 0px #87e0ee38, 0 0 0px #87e0ee38, 0 0 0px #87e0ee38,
-      0 0 20px #e289ff8f;
+      0 0 10px #e289ff8f;
     background-image: linear-gradient(to left, #ff000000, #ffe2e23d, #ff000000);
   
   }
@@ -27,8 +30,8 @@ const Card = styled.div`
     transform: translateX(3px);
     transform: translateY(-5px);
     box-shadow: 0 0 0px #87e0ee38, 0 0 0px #87e0ee38, 0 0 0px #87e0ee38,
-      0 0 60px #e289ff8f;
-    background-image: linear-gradient(to left, #ff000000, #ffe2e23d, #ff000000);
+      0 0 40px #e289ff8f;
+    /* background-image: linear-gradient(to left, #ff000000, #ffe2e23d, #ff000000); */
   }
 `;
 
@@ -44,38 +47,20 @@ const ImageFile = styled.img`
   }
 `;
 
-const Tech = styled.p`
-  font-family: inherit;
-  font-style: monospace;
-  font-weight: 200;
-  color: white;
-  font-size: 16px;
-  margin: 0px 25px;
-
-  @media (max-width: 780px) {
-  font-size: 15px;
-  text-align: center;
-  min-height: 53px;
-  margin: 10px;
-  }
-  @media (max-width: 580px) {
-  font-size: 16px;
-  }
-`;
-
 const Title = styled.h2`
-  font-family: Poppins;
+  font-family: 'Open-Sans', sans-serif;
   font-style: normal;
-  font-weight: 800;
-  color: #ff8383;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f991f9;
   text-align: center;
   font-size: 25px;
   letter-spacing: 0.8px;
-  margin: 6px;
+  padding-top: 10px;
 `;
 
 const Button = styled.button`
- background: linear-gradient(rgba(255, 255, 255, 0.473), rgba(150, 150, 150, 0.25));
+ background: linear-gradient( #9c3bff78, rgba(150, 150, 150, 0.25));
  z-index: 1;
  backdrop-filter: blur(10px);
  -webkit-backdrop-filter: blur(10px);
@@ -92,7 +77,7 @@ const Button = styled.button`
   &:hover {
     animation: gradient 2s infinite;
     transform: scale(1.05);
-    background-color: #cd87ee;
+    background-color: #9c3bff78;
     cursor: pointer;
   }
   &:active {
@@ -102,13 +87,29 @@ const Button = styled.button`
 `;
 
 const SubTitle = styled.p`
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 100;
+  font-weight: 500;
   color: white;
   font-size: 18px;
   margin: 25px;
   text-align: center;
+`;
+
+const Tech = styled.p`
+  font-style: monospace;
+  font-weight: 200;
+  color: white;
+  font-size: 17px;
+  margin: 0px 25px;
+  text-align: center;
+  @media (max-width: 780px) {
+  font-size: 16px;
+  text-align: center;
+  min-height: 53px;
+  margin: 10px;
+  }
+  @media (max-width: 580px) {
+  font-size: 16px;
+  }
 `;
 
 export default function Cards({ title, image, text = [], url }, index) {
@@ -123,7 +124,6 @@ export default function Cards({ title, image, text = [], url }, index) {
               <SubTitle>{describe}</SubTitle>
               <Tech>{tech}</Tech>
             </div>
-
           );
         }
         )}

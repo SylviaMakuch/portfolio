@@ -8,18 +8,11 @@ import "aos/dist/aos.css";
 
 const PageContainer = styled.div`
   display: flex;
-  margin: 0px 0px 100px 0px;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  background-attachment: fixed;
-  background: rgb(139, 70, 230);
-  background: radial-gradient(
-    circle,
-    rgba(139, 70, 230, 1) 0%,
-    rgba(0, 0, 0, 1) 78%
-  );
+  padding-bottom: 100px;
 `;
 
 const InnerBottomDiv = styled.div`
@@ -30,7 +23,7 @@ const InnerBottomDiv = styled.div`
   max-width: 2200px;
 `;
 
-const Title = styled.h2`
+const Title = styled.div`
   font-family: 'Fira Sans', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -38,17 +31,19 @@ const Title = styled.h2`
   text-align: center;
   text-shadow: 2px 2px black;
   font-size: 65px;
-  letter-spacing: 0.8px; */
-  margin: 500px 100px 500px 100px;
+  letter-spacing: 0.8px; 
+  margin: 50px 10px 50px 10px;
+
   @media( max-width: 800px){
     font-size: 45px;
+    max-width: 400px;
   }
 `;
 
 const Picture = styled.img`
   width: 550px;
 @media(max-width: 1180px){
-  width: 50%;
+  width: 60%;
 }
 `;
 

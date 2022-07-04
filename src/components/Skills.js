@@ -21,11 +21,15 @@ const PageContainer = styled.div`
   align-content: center;
   flex-wrap: wrap;
   background: linear-gradient(89deg, #cd87ee, #87e0ee);
-  background-size: 400% 400%;
-  padding:  40px 0px;
+  background-size: 200%  200%;
+  padding: 60px 0px 60px 0px;
   -webkit-animation: AnimationName 0s ease infinite;
   -moz-animation: AnimationName 0s ease infinite;
   animation: AnimationName 0s ease infinite;
+
+  @media (max-width: 640px) {
+    padding: 30px 0px 30px 0px;
+  }
 
   @-webkit-keyframes AnimationName {
     0% {
@@ -67,28 +71,21 @@ const InnerDiv = styled.div`
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  @media (max-width: 780px) {
-    max-width: 63%;
-  }
-  @media (max-width: 680px) {
+  width: 1200px;
+  margin:30px; ;
+  @media (max-width: 1200px) {
     max-width: 70%;
+  }
+  @media (max-width: 640px) {
+    max-width: 90%;
   }
 `;
 
 const Icon = styled.img`
-  width: 100px;
+  width: 55px;
   margin: 30px;
-  @media (max-width: 1700px) {
-    width: 80px;
-  }
-  @media (max-width: 1200px) {
-    width: 60px;
-    margin: 20px;
-  }
-  @media (max-width: 900px) {
-    width: 50px;
-  }
-  @media (max-width: 680px) {
+  
+  @media (max-width: 840px) {
     margin: 10px;
     width: 30px;
   }
