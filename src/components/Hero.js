@@ -43,7 +43,7 @@ const Picture = styled.img`
     position: relative;
   }
   @media (max-width: 830px) {
-    height: 240px;
+    height: 220px;
     width: 200px;
     margin: 30px;
   }
@@ -81,7 +81,7 @@ const Text = styled.div`
     width: 425px;
   }
   @media (max-width: 865px) {
-    font-size: 35px;
+    font-size: 33px;
     width: 344px;
   }
   @media (max-width: 620px) {
@@ -96,7 +96,7 @@ const Text = styled.div`
 
 const PinkText = styled.div`
   color: #e289ff;
-  margin-left: 9px;
+  margin-left: 5px;
 `;
 
 const Greeting = styled.div`
@@ -123,16 +123,14 @@ const ResumeButton = styled.button`
   background: #03e9f4;
   color: #050801;
   position: relative;
-  left: 31em;
+  left: 400px;
   top: 10px;
   border: 0px;
   cursor: alias;
   box-shadow: 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 20px #03e9f4,
     0 0 120px #03e9f4;
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
-  @media (max-width: 1365px) {
-    left: 0em;
-  }
+
   &:hover {
     box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
       0 0 200px #03e9f4;
@@ -141,6 +139,8 @@ const ResumeButton = styled.button`
     font-size: 15px;
     height: 20px;
     width: 80px;
+    left: 30px;
+    top: 16px;
   }
 `;
 
@@ -155,10 +155,10 @@ const LeftInnerDiv = styled.div`
     margin: 50px;
   }
   @media (max-width: 1140px) {
-    margin: 20px;
+    margin: 40px;
   }
-  @media (max-width: 620px) {
-    margin-right: 0px;
+  @media (max-width: 400px) {
+    margin: 20px;
   }
 `;
 
@@ -176,7 +176,7 @@ const RightInnerDiv = styled.div`
     margin: 0px;
   }
   @media (max-width: 738px) {
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
   }
   @media (max-width: 620px) {
     width: 160px;
