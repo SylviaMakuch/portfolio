@@ -1,16 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Cards from "./Cards";
-import { servicesData } from "./Config";
+import Principles from "./Principles";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const PageContainer = styled.div`
-  display: flex;
-  margin: 100px 0px 100px 0px;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
+  padding: 100px;
 `;
 
 const Title = styled.h2`
@@ -23,6 +18,7 @@ const Title = styled.h2`
   font-size: 65px;
   letter-spacing: 0.8px; */
   margin: 500px 100px 500px 100px;
+
   @media( max-width: 800px){
     font-size: 45px;
   }
@@ -44,23 +40,21 @@ const InnerTopDiv = styled.div`
 `;
 
 
-export default function Principles() {
+export default function AboutMe() {
   AOS.init({
     duration: 1200,
   });
   return (
 
-      <PageContainer>
-        <InnerTopDiv>
-        <Title>My Principles</Title>
-        </InnerTopDiv>
-        <div data-aos="zoom-in">
+    <PageContainer>
+      <InnerTopDiv>
+        <Title>A little About Me</Title>
+      </InnerTopDiv>
+      <div data-aos="zoom-in">
         <InnerBottomDiv>
-        {servicesData.map(({ title, text, image }, index) => {
-          return <Cards image={image} text={text} title={title} key={index} />;
-        })}
+          <Principles />
         </InnerBottomDiv>
-        </div>
-      </PageContainer>
+      </div>
+    </PageContainer>
   );
 }
