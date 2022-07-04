@@ -1,5 +1,4 @@
 import React from "react";
-import { CardContent } from "@material-ui/core/";
 import styled from "styled-components";
 
 const Card = styled.div`
@@ -93,9 +92,9 @@ export default function Cards({ image, text, title }, index) {
     <Card>
       <Image src={image} key={index} />
       <Title>{title}</Title>
-      <CardContent>
-        <Message>{text}</Message>
-      </CardContent>
+
+      <Message>{text}</Message>
+
     </Card>
   );
 }

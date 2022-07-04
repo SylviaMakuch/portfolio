@@ -1,6 +1,6 @@
 import React from "react";
-import { CardContent } from "@material-ui/core/";
 import styled from "styled-components";
+import { cardData } from "./Config";
 
 const Card = styled.div`
   background-image: linear-gradient(to left, #000000e0, #ff000000, #000000e0);  
@@ -9,15 +9,15 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin: 45px;
-  padding-bottom: 20px;
+
   @media (max-width: 1220px) {
     width: 40%;
     margin: 25px;
   }
-  @media (max-width: 580px) {
-    width: 80%;
+  @media (max-width: 780px) {
+    width: 90%;
     box-shadow: 0 0 0px #87e0ee38, 0 0 0px #87e0ee38, 0 0 0px #87e0ee38,
       0 0 20px #e289ff8f;
     background-image: linear-gradient(to left, #ff000000, #ffe2e23d, #ff000000);
@@ -33,7 +33,7 @@ const Card = styled.div`
 `;
 
 const ImageFile = styled.img`
-  height: 198px;
+  height: 300px;
   width: 500px;
   border-radius: 25px 25px 0px 0px;
   @media (max-width: 1220px) {
@@ -44,17 +44,19 @@ const ImageFile = styled.img`
   }
 `;
 
-const Message = styled.p`
+const Tech = styled.p`
   font-family: inherit;
-  font-style: normal;
-  font-weight: 100;
+  font-style: monospace;
+  font-weight: 200;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
+  margin: 0px 25px;
+
   @media (max-width: 780px) {
   font-size: 15px;
   text-align: center;
-  margin: 0px;
   min-height: 53px;
+  margin: 10px;
   }
   @media (max-width: 580px) {
   font-size: 16px;
@@ -86,6 +88,7 @@ const Button = styled.button`
   color: white;
   transition: all 0.5s ease-in-out;
   font-family: 'Fira Sans', sans-serif;
+  margin: 15px;
   &:hover {
     animation: gradient 2s infinite;
     transform: scale(1.05);
@@ -98,17 +101,35 @@ const Button = styled.button`
   }
 `;
 
-export default function Cards({ image, text, title, url }, index) {
+const SubTitle = styled.p`
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 100;
+  color: white;
+  font-size: 18px;
+  margin: 25px;
+  text-align: center;
+`;
+
+export default function Cards({ title, image, text = [], url }, index) {
   return (
-    <Card>
-      <ImageFile src={image} />
-      <Title>{title}</Title>
-      <CardContent>
-        <Message>{text}</Message>
-      </CardContent>
-      <a href={url} key={index}>
-        <Button>VISIT WEBPAGE </Button>
-      </a>
-    </Card>
+    <>
+      <Card>
+        <ImageFile src={image} alt="project" />
+        <Title>{title}</Title>
+        {text.map(({ tech, describe }, index) => {
+          return (
+            <div key={index}>
+              <SubTitle>{describe}</SubTitle>
+              <Tech>{tech}</Tech>
+            </div>
+
+          );
+        }
+        )}
+        <Button href={url}>View Project</Button>
+      </Card>
+
+    </>
   );
 }
