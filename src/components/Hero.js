@@ -135,12 +135,17 @@ const ResumeButton = styled.button`
     box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
       0 0 200px #03e9f4;
   }
-  @media (max-width: 620px) {
+
+  @media (max-width: 1000px) {
     font-size: 15px;
-    height: 20px;
-    width: 80px;
+    left: 250px;
+    top: 50px;
+  }
+  @media (max-width: 640px) {
+    font-size: 15px;
     left: 30px;
     top: 16px;
+    height: 35px;
   }
 `;
 
@@ -178,7 +183,7 @@ const RightInnerDiv = styled.div`
   @media (max-width: 738px) {
     margin: 0px 0px 0px 0px;
   }
-  @media (max-width: 620px) {
+  @media (max-width: 630px) {
     width: 160px;
   }
 `;
