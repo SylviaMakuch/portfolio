@@ -9,6 +9,7 @@ import js from "./../media/js.svg";
 import mongodb from "./../media/mongodb.svg";
 import react from "./../media/react.svg";
 import ts from "./../media/ts.svg";
+import threejslogo from "./../media/threejslogo.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -21,7 +22,7 @@ const PageContainer = styled.div`
   flex-wrap: wrap;
   background: linear-gradient(89deg, #cd87ee, #87e0ee);
   background-size: 400% 400%;
-
+  padding:  40px 0px;
   -webkit-animation: AnimationName 0s ease infinite;
   -moz-animation: AnimationName 0s ease infinite;
   animation: AnimationName 0s ease infinite;
@@ -62,12 +63,10 @@ const PageContainer = styled.div`
 `;
 
 const InnerDiv = styled.div`
-  max-width: 60%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  margin: 25px;
   @media (max-width: 780px) {
     max-width: 63%;
   }
@@ -88,7 +87,6 @@ const Icon = styled.img`
   }
   @media (max-width: 900px) {
     width: 50px;
-    margin: 20px;
   }
   @media (max-width: 680px) {
     margin: 10px;
@@ -113,6 +111,7 @@ export default function Skills() {
           <Icon src={react} />
           <Icon src={ts} />
           <Icon src={js} />
+          <Icon src={threejslogo} />
         </div>
       </InnerDiv>
     </PageContainer>
