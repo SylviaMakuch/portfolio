@@ -34,7 +34,6 @@ const Forum = styled.form`
   background: #bcb2be26;
   box-shadow: 20px 20px 60px #2c1232b5, -20px -20px 60px #a187a1;
   height: 550px;
-  width: 290px;
   padding: 30px;
   border-radius: 25px;
   display: flex;
@@ -100,18 +99,26 @@ export default function ContactForm() {
       e.target.reset()
   };
 
+const Input = styled.input`
+  border-radius: 5px;
+  width: 350px;
+  @media (max-width: 746px) {
+    width: 250px;
+  }
+`;
+
   return (
     <PageContainer id="contact">
       <Forum ref={form} onSubmit={sendEmail}>
       <Title>Contact Me</Title>
         <label>Name</label>
-        <input type="text" name="name" />
+        <Input type="text" name="name" />
 
         <label>Email</label>
-        <input type="email" name="email" />
+        <Input type="email" name="email" />
 
-        <label for="subject">Subject</label>
-        <input type="text" name="subject" id="subject" />
+        <label htmlFor="subject">Subject</label>
+        <Input type="text" name="subject" id="subject" />
 
         <label>Message</label>
         <textarea name="message" />
