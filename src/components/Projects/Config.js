@@ -62,7 +62,7 @@ export const cardData = [
       tech: "React, Type-Script, Styled-Components, Soundcloud API,",
     }],
     image: soundboard,
-    url: "https://6213129ed93fab825501a5a5--hopeful-jepsen-b904e7.netlify.app/",
+    url: "https://soundboardfunk.netlify.app/",
   },
   {
     title: "My Artpage",

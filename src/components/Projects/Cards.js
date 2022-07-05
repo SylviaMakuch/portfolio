@@ -127,7 +127,7 @@ export default function Cards({ title, image, text = [], url }, index) {
           );
         }
         )}
-        <Button href={url}>View Project</Button>
+        <a href={url}>        <Button>View Project</Button></a>
       </Card>
 
     </>
