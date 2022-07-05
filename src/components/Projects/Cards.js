@@ -21,9 +21,9 @@ const Card = styled.div`
   }
   @media (max-width: 780px) {
     width: 90%;
-    box-shadow: 0 0 0px #87e0ee38, 0 0 0px #87e0ee38, 0 0 0px #87e0ee38,
+    /* box-shadow: 0 0 0px #87e0ee38, 0 0 0px #87e0ee38, 0 0 0px #87e0ee38,
       0 0 10px #e289ff8f;
-    background-image: linear-gradient(to left, #ff000000, #ffe2e23d, #ff000000);
+    background-image: linear-gradient(to left, #ff000000, #ffe2e23d, #ff000000); */
   
   }
   &:hover {
