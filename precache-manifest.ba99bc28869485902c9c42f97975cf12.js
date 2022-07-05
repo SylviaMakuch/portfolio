@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "302ceb3bc22a02e49584",
-    "url": "/portfolio/static/css/main.1d74f43a.chunk.css"
+    "revision": "24d8b4e74cf9af7314c6",
+    "url": "/portfolio/static/css/main.b66a17b9.chunk.css"
   },
   {
-    "revision": "302ceb3bc22a02e49584",
-    "url": "/portfolio/static/js/main.302ceb3b.chunk.js"
+    "revision": "24d8b4e74cf9af7314c6",
+    "url": "/portfolio/static/js/main.24d8b4e7.chunk.js"
   },
   {
     "revision": "1f73e34b2a799b34622e",
@@ -96,8 +96,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/gumballmachine.e7c9bc79.png"
   },
   {
-    "revision": "29e7079f812d2f2b54cb157b6e37b6b9",
-    "url": "/portfolio/static/media/workhard.29e7079f.gif"
+    "revision": "7a7c052c2e07f2a0117d9d8869edb8ac",
+    "url": "/portfolio/static/media/artpark.7a7c052c.svg"
   },
   {
     "revision": "38809fa09125c8aa0848edbab8456fb9",
@@ -124,7 +124,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/resume.53068882.svg"
   },
   {
-    "revision": "7db04eedef9af355470ef67063fe792a",
+    "revision": "29e7079f812d2f2b54cb157b6e37b6b9",
+    "url": "/portfolio/static/media/workhard.29e7079f.gif"
+  },
+  {
+    "revision": "e8fbb2dfdf4483960339b478642e81de",
     "url": "/portfolio/index.html"
   }
 ];
