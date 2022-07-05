@@ -63,11 +63,11 @@ export default function Principles() {
         <Card>
             <ImageFile src={aboutme} />
             <MainText>
-                Hello! My name is Sylvia and I enjoy creating beautiful yet functional things on the internet. My interest in web development started back in 2014 when I enrolled in Biotechnology. I went down the wrong path and ended up working for the hospital. After years, I knew this was not the path for me. I started to refresh my skills, took a Bootcamp and attended Harvard’s Introduction to Computer Science course and did an internship at a crypto start-up.
+                Hello! My name is Sylvia and I enjoy creating beautiful yet functional things on the internet. My interest in web development started back in 2014 when I enrolled in Biotechnology. I went down the wrong path and ended up working for the hospital. After years, I decided it was not the path for me. I started to refresh my skills, took a Bootcamp, attended Harvard’s Introduction to Computer Science course and did an internship at a crypto start-up.
             </MainText>
 
             <MainText>
-                Since then, I have had the opportunity to be at the forefront of innovation in crypto companies. With my passion for art and creative design, I aid companies in design and brand building, this includes custom three-js models and vector animations.
+                Since then, I have had the opportunity to be at the forefront of innovation in crypto companies. With my passion for art and creative design, I aided companies in design and brand building, this includes custom three-js models and vector animations.
             </MainText>
             <SecondaryText>
                 I am passionate about front-end development using: JavaScript, React , Redux, TypeScript, three-js / React-Three-Fibre, CSS, and Styled-Components.

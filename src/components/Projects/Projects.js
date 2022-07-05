@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Cards from "./Cards";
 import { cardData } from "./Config";
 import workhard from "./../../media/workhard.gif";
+import artpark from "./../../media/artpark.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -10,17 +11,9 @@ const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   flex-wrap: wrap;
   padding-bottom: 100px;
-`;
-
-const InnerBottomDiv = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 2200px;
 `;
 
 const Title = styled.div`
@@ -41,7 +34,7 @@ const Title = styled.div`
 `;
 
 const Picture = styled.img`
-  width: 550px;
+  width: 600px;
 @media(max-width: 1180px){
   width: 60%;
 }
@@ -56,6 +49,14 @@ const InnerTopDiv = styled.div`
   margin: 40px 0px 80px 0px;
 `;
 
+const InnerBottomDiv = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+`;
+
 export default function Projects() {
   AOS.init({
     duration: 1200,
@@ -65,7 +66,7 @@ export default function Projects() {
       <Title ata-aos="zoom-out"> My Latest Projects </Title>
       <div data-aos="fade-up">
         <InnerTopDiv>
-          <Picture src={workhard} />
+          <Picture src={artpark} />
         </InnerTopDiv>
         <InnerBottomDiv>
           {cardData.map(({ title, text, image, url }, index) => {

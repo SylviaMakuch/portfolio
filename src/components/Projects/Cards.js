@@ -21,22 +21,17 @@ const Card = styled.div`
   }
   @media (max-width: 780px) {
     width: 90%;
-    /* box-shadow: 0 0 0px #87e0ee38, 0 0 0px #87e0ee38, 0 0 0px #87e0ee38,
-      0 0 10px #e289ff8f;
-    background-image: linear-gradient(to left, #ff000000, #ffe2e23d, #ff000000); */
-  
   }
   &:hover {
     transform: translateX(3px);
     transform: translateY(-5px);
     box-shadow: 0 0 0px #87e0ee38, 0 0 0px #87e0ee38, 0 0 0px #87e0ee38,
       0 0 40px #e289ff8f;
-    /* background-image: linear-gradient(to left, #ff000000, #ffe2e23d, #ff000000); */
   }
 `;
 
 const ImageFile = styled.img`
-  height: 300px;
+  height: 333px;
   width: 500px;
   border-radius: 25px 25px 0px 0px;
   @media (max-width: 1220px) {
@@ -57,6 +52,33 @@ const Title = styled.h2`
   font-size: 25px;
   letter-spacing: 0.8px;
   padding-top: 10px;
+`;
+
+
+const SubTitle = styled.p`
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+  margin: 7px;
+  text-align: center;
+`;
+
+const Tech = styled.p`
+  font-style: italic;
+  font-weight: 200;
+  color: white;
+  font-size: 17px;
+  margin: 0px 25px;
+  text-align: center;
+  @media (max-width: 780px) {
+  font-size: 16px;
+  text-align: center;
+  min-height: 53px;
+  margin: 10px;
+  }
+  @media (max-width: 580px) {
+  font-size: 16px;
+  }
 `;
 
 const Button = styled.button`
@@ -83,32 +105,6 @@ const Button = styled.button`
   &:active {
     animation: gradient 3s infinite;
     transform: scale(0.8);
-  }
-`;
-
-const SubTitle = styled.p`
-  font-weight: 500;
-  color: white;
-  font-size: 18px;
-  margin: 25px;
-  text-align: center;
-`;
-
-const Tech = styled.p`
-  font-style: monospace;
-  font-weight: 200;
-  color: white;
-  font-size: 17px;
-  margin: 0px 25px;
-  text-align: center;
-  @media (max-width: 780px) {
-  font-size: 16px;
-  text-align: center;
-  min-height: 53px;
-  margin: 10px;
-  }
-  @media (max-width: 580px) {
-  font-size: 16px;
   }
 `;
 

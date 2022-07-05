@@ -6,6 +6,7 @@ import Projects from "./Projects/Projects.js";
 import Hero from "./Hero.js";
 import AboutMe from "./AboutMe/AboutMe"
 import ContactForm from "./ContactForm.js";
+import ColoredLine from "./ColoredLine.js";
 
 const GradientMapBackground = styled.div`
   background-color: #000000;
@@ -25,6 +26,8 @@ export default function MainPage() {
         <AboutMe />
         <Projects />
       </GradientMapBackground>
+      <ColoredLine color="magenta" />
+      <ColoredLine color="magenta" />
       <ContactForm />
     </>
   );
