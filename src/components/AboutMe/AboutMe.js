@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const PageContainer = styled.div`
-  padding: 100px;
+  padding: 50px;
 `;
 
 const Title = styled.h2`

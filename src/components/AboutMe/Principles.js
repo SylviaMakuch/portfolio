@@ -13,12 +13,18 @@ const Card = styled.div`
   @media( max-width: 650px){
     max-width: 400px;
   }
+  @media( max-width: 400px){
+    max-width: 320px;
+  }
 `;
 
 const ImageFile = styled.img`
     width: 500px;
     @media( max-width: 650px){
         width: 400px;
+  }
+  @media( max-width: 400px){
+    width: 320px;
   }
 `;
 
@@ -31,6 +37,11 @@ const MainText = styled.p`
     @media( max-width: 650px){
        font-size: 16px;
   }
+
+  @media( max-width: 400px){
+    letter-spacing: 0.4px; 
+    font-size: 14px;
+  }
 `;
 
 const SecondaryText = styled.p`
@@ -40,6 +51,10 @@ const SecondaryText = styled.p`
 
     @media( max-width: 650px){
        font-size: 16px;
+  }
+  @media( max-width: 400px){
+    letter-spacing: 0.4px; 
+    font-size: 14px;
   }
 `;
 
