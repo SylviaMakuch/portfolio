@@ -36,7 +36,7 @@ const Title = styled.div`
 const Picture = styled.img`
   width: 600px;
 @media(max-width: 1180px){
-  width: 60%;
+  width: 90%;
 }
 `;
 
