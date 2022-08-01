@@ -1,7 +1,7 @@
 {
   "main.css": "/portfolio/static/css/main.b66a17b9.chunk.css",
-  "main.js": "/portfolio/static/js/main.565c61aa.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.565c61aa.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.871cb538.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.871cb538.chunk.js.map",
   "static/css/1.f0242122.chunk.css": "/portfolio/static/css/1.f0242122.chunk.css",
   "static/js/1.1f73e34b.chunk.js": "/portfolio/static/js/1.1f73e34b.chunk.js",
   "static/js/1.1f73e34b.chunk.js.map": "/portfolio/static/js/1.1f73e34b.chunk.js.map",
@@ -32,11 +32,11 @@
   "static/media/linkden.svg": "/portfolio/static/media/linkden.5a41ea9f.svg",
   "static/media/aboutme.svg": "/portfolio/static/media/aboutme.141c77b0.svg",
   "static/media/animatedwave.svg": "/portfolio/static/media/animatedwave.0db92e90.svg",
-  "static/media/resume.svg": "/portfolio/static/media/resume.94ed0452.svg",
+  "static/media/resume.svg": "/portfolio/static/media/resume.48d1d9e2.svg",
   "static/media/workhard.gif": "/portfolio/static/media/workhard.29e7079f.gif",
-  "static/css/1.f0242122.chunk.css.map": "/portfolio/static/css/1.f0242122.chunk.css.map",
   "static/css/main.b66a17b9.chunk.css.map": "/portfolio/static/css/main.b66a17b9.chunk.css.map",
+  "static/css/1.f0242122.chunk.css.map": "/portfolio/static/css/1.f0242122.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.ad36915b8261b99c718e3500360de028.js": "/portfolio/precache-manifest.ad36915b8261b99c718e3500360de028.js",
+  "precache-manifest.5e6d4bf5d09b9105413e9f979da03492.js": "/portfolio/precache-manifest.5e6d4bf5d09b9105413e9f979da03492.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
